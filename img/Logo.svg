@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="22px" viewBox="0 0 320 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo" transform="translate(-2.000000, -7.000000)" fill="#333333">
+            <text id="FRYE" font-family="SFUIText-Heavy, SF UI Text" font-size="29" font-weight="600" letter-spacing="10.3000002">
+                <tspan x="215" y="28">FRYE</tspan>
+            </text>
+            <text id="by" font-family="SnellRoundhandLTStd-Scr, Snell Roundhand LT Std" font-size="20" font-style="italic" font-weight="normal">
+                <tspan x="181" y="22">by</tspan>
+            </text>
+            <text id="DESIGN" font-family="SFUIText-Heavy, SF UI Text" font-size="29" font-weight="600" letter-spacing="10.3000002">
+                <tspan x="0" y="28">DESIGN</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
