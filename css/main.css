@@ -19,6 +19,10 @@ Montserrat Medium (medium):500;
 Montserrat Bold (bold):700;
  */
 
+html{
+	max-width: 1450px;
+	margin:auto;
+}
 
 body {
 	background-color: #ffffff;
@@ -176,7 +180,8 @@ div.spacer {
 /*Not sure how to center the nav on ux/ui and designs pages towards the bottom of the page*/
 .centernav {
 	width: 100%;
-	background-color: black;
+	padding-left: 0em;
+	text-align: center;
 }
 
 .twowide {
@@ -188,21 +193,43 @@ div.spacer {
 }
 
 .left {
-	background-color: black;
 	max-width: 49.25%;
 	height: auto;
 	margin-right:.5%;
+	margin-bottom: 1%;
 	padding-left: 0em;
-	overflow: hidden;
 }
 
 .right {
-	background-color: black;
+	max-width: 49.25%;
+	max-height: auto;
+	margin-left:.5%;
+	margin-bottom: 1%;
+	padding-left: 0em;
+	vertical-align: top;
+}
+
+.test {
 	max-width: 49.25%;
 	max-height: auto;
 	margin-left:.5%;
 	padding-left: 0em;
-	overflow: hidden;
+	float: right;
+	vertical-align: top;
+}
+
+.stack {
+	display: wrap;
+	flex-wrap: wrap;
+	max-width: 100%;
+	margin-right: .5%;
+}
+
+.top {
+	max-width: 50%;
+	max-height: auto;
+	margin-right: .5%;
+	margin-bottom: 1%;
 }
 
 .halfcenter {
@@ -214,12 +241,37 @@ div.spacer {
 /*for ux/ui and designs full width*/
 .fullux {
 	max-width: 100%;
-	max-height: 100%;
+	max-height: auto;
 	padding-right:0em;
 	padding-left: 0em;
 	margin-left: 0em;
 	margin-right: 5%;
+	margin-bottom: 1%;
 }
 
+/*recruiting page last image full width*/
+.fullit {
+	width: 100%;
+	height: auto;
+	margin-top: .5em;
+	margin-bottom: 2em;
+}
 
+.btmspace {
+	margin-bottom: 3em;
+}
+
+.space {
+	margin-bottom: .5em;
+	margin-top: 1em;
+}
+
+.video {
+	width: 1450px;
+	height: auto;
+	margin-left: 0em;
+	margin-right: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+}
 
