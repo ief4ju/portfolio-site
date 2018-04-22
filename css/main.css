@@ -1,0 +1,225 @@
+/*
+Colors used
+
+Dark Gray Color (darkgray): #333333;
+Gray Color (gray): #767676;
+Light Gray Color (lightgray): D8D8D8;
+
+Darl Blue Color (darkblue): #377FC2;
+Blue Color (blue): #9ACBED;
+Light Blue Color (lightblur): #E8F6FC;
+
+Fonts used
+
+font-family: 'Montserrat', sans-serif;
+
+Montserrat Light (light):300;
+Montserrat Light italic (italic):300i;
+Montserrat Medium (medium):500;
+Montserrat Bold (bold):700;
+ */
+
+
+body {
+	background-color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 1em;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+nav {
+	font-weight:500;
+}
+
+footer {
+	margin: 0 auto;
+	padding-top: 2em;
+}
+
+div {
+  padding-left: em;
+  padding-right: em;  
+  display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    padding-top: 0px;
+    margin: auto;
+}
+
+li {
+	display: inline-block;
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+	padding-right: 1em;
+	font-size: 1.2em;
+	letter-spacing: .04em;
+}
+
+a {
+	color: #767676;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #333333;
+}
+
+a:active {
+	color: #333333;
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.paddingright {
+	padding-right: 0em;
+}
+
+
+
+.logo {
+	margin: auto;
+	height: 1.5em;
+	padding-left: 0em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.full {
+	max-width: 100%;
+	max-height: 100%;
+	padding-right:0em;
+	padding-left: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+}
+
+div.spacer {
+	height: 3em;
+	width: 0px;
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+}
+/*This includes styling for the contact page*/
+
+/*contact image left align*/
+.leftalign {
+	margin-left: auto;
+}
+
+/*Block of text to align to top*/
+.contact {
+	vertical-align: top;
+	margin-left: 0em;
+}
+
+/*Height*/
+.profilepic {
+	max-height: 25em;
+	margin-right: 2em;
+}
+
+.contacttext {
+	padding: 0px;
+	margin: 0px;
+}
+
+.light {
+	font-weight:300;
+	margin-top:0px;
+	margin-bottom:0px; 
+}
+
+.button {
+	border-style: solid;
+	border-color: #333333;
+	border-radius: 4px;
+	border-width: 1px;
+	color: #333333;
+	padding: .5em;
+}
+
+.button:hover {
+	border-style: solid;
+	border-color: #333333;
+	background-color: #333333;
+	border-radius: 4px;
+	border-width: 1px;
+	color: #ffffff;
+	padding: .5em;
+}
+/*End of styling for contact page*/
+
+/*footer icons*/
+.social {
+	max-height: 1.2em;
+	padding-left: 1.5em;
+	padding-bottom: 1em;
+	padding-top: 8em;
+	align-content: center;
+}
+
+/*footer alignment to center*/
+.center {
+	text-align: center;
+	padding-top: 0em;
+}
+
+/*Not sure how to center the nav on ux/ui and designs pages towards the bottom of the page*/
+.centernav {
+	width: 100%;
+	background-color: black;
+}
+
+.twowide {
+	width: 100%;
+	margin-left: 0em;
+	margin-right: 0em;
+	padding-left: 0em;
+	padding-right: 0em;
+}
+
+.left {
+	background-color: black;
+	max-width: 49.25%;
+	height: auto;
+	margin-right:.5%;
+	padding-left: 0em;
+	overflow: hidden;
+}
+
+.right {
+	background-color: black;
+	max-width: 49.25%;
+	max-height: auto;
+	margin-left:.5%;
+	padding-left: 0em;
+	overflow: hidden;
+}
+
+.halfcenter {
+	max-height: 50%;
+	width: 50%;
+	margin-left:0em;
+	padding-left: 0em;
+}
+/*for ux/ui and designs full width*/
+.fullux {
+	max-width: 100%;
+	max-height: 100%;
+	padding-right:0em;
+	padding-left: 0em;
+	margin-left: 0em;
+	margin-right: 5%;
+}
+
+
+
