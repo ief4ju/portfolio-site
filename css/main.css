@@ -22,14 +22,15 @@ Montserrat Bold (bold):700;
 html{
 	max-width: 1450px;
 	margin:auto;
+	font-size: 62.5%
 }
 
 body {
 	background-color: #ffffff;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 1em;
-	margin-right: 5%;
-	margin-left: 5%;
+	font-weight: 1.4rem;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 nav {
@@ -41,27 +42,56 @@ footer {
 	padding-top: 2em;
 }
 
-div {
-  padding-left: em;
-  padding-right: em;  
+div { 
   display: inline-block;
+}
+
+p {
+	font-size: 1.6rem;
+	letter-spacing: .1rem;
+	line-height: 2.5rem;
+}
+
+
+/*Headings*/
+h1 {
+	font-size: 2.4rem;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+}
+
+h2 {
+
+}
+
+h5 {
+	font-size: 1.6rem;
+}
+/*End Headings*/
+
+/*Global Nav Bar*/
+.logo {
+	margin: auto;
+	height: 2rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	padding-left: 0rem;
 }
 
 ul {
     list-style-type: none;
     display: inline-block;
     float: right;
-    padding-top: 0px;
     margin: auto;
 }
 
 li {
 	display: inline-block;
-	padding-top: 1.5em;
-	padding-bottom: 1em;
-	padding-right: 1em;
-	font-size: 1.2em;
-	letter-spacing: .04em;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	padding-right: 2rem;
+	font-size: 1.8rem;
+	letter-spacing: .1rem;
 }
 
 a {
@@ -69,31 +99,39 @@ a {
 	text-decoration: none;
 }
 
-a:hover, a:focus {
-	color: #333333;
-}
-
+a:hover,
+a:focus,
 a:active {
 	color: #333333;
 }
 
-h1 {
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
 
 .paddingright {
-	padding-right: 0em;
+	padding-right: 0rem;
+}
+/*End Global Nav*/
+
+/*Components towards the bottom of the page*/
+/*footer icons*/
+.social {
+	max-height: 2.5rem;
+	padding-left: 4rem;
+	padding-bottom: 4rem;
+	padding-top: 20rem;
+	align-content: center;
 }
 
+/*footer alignment to center*/
+.center {
+	text-align: center;
+	padding-top: 0em;
+}
 
-
-.logo {
-	margin: auto;
-	height: 1.5em;
+/*Centers the nav on ux/ui and designs pages towards the bottom of the page*/
+.centernav {
+	width: 100%;
 	padding-left: 0em;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	text-align: center;
 }
 
 .full {
@@ -104,42 +142,32 @@ h1 {
 	margin-left: 0em;
 	margin-right: 0em;
 }
+/*End of bottom of page components*/
 
-div.spacer {
-	height: 3em;
-	width: 0px;
-	padding: 0px;
-	margin: 0px;
-	background-color: black;
-}
 /*This includes styling for the contact page*/
-
-/*contact image left align*/
-.leftalign {
+/*Profile Pic*/
+.pic {
+	max-height: 40rem;
+	margin-bottom: 4rem;
+	margin-right: 4rem;
 	margin-left: auto;
 }
 
-/*Block of text to align to top*/
+/*Block of text align*/
+.center {
+	width: 100%;
+	vertical-align: top;
+}
+
 .contact {
 	vertical-align: top;
-	margin-left: 0em;
-}
-
-/*Height*/
-.profilepic {
-	max-height: 25em;
-	margin-right: 2em;
-}
-
-.contacttext {
-	padding: 0px;
-	margin: 0px;
+	text-align: left;
 }
 
 .light {
 	font-weight:300;
-	margin-top:0px;
-	margin-bottom:0px; 
+	margin-top:0rem;
+	margin-bottom:0rem; 
 }
 
 .button {
@@ -148,6 +176,7 @@ div.spacer {
 	border-radius: 4px;
 	border-width: 1px;
 	color: #333333;
+	font-size: 1.6rem;
 	padding: .5em;
 }
 
@@ -160,29 +189,15 @@ div.spacer {
 	color: #ffffff;
 	padding: .5em;
 }
+
+div.spacer {
+	height: 7rem;
+	width: 0px;
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+}
 /*End of styling for contact page*/
-
-/*footer icons*/
-.social {
-	max-height: 1.2em;
-	padding-left: 1.5em;
-	padding-bottom: 1em;
-	padding-top: 8em;
-	align-content: center;
-}
-
-/*footer alignment to center*/
-.center {
-	text-align: center;
-	padding-top: 0em;
-}
-
-/*Not sure how to center the nav on ux/ui and designs pages towards the bottom of the page*/
-.centernav {
-	width: 100%;
-	padding-left: 0em;
-	text-align: center;
-}
 
 .twowide {
 	width: 100%;
@@ -193,7 +208,7 @@ div.spacer {
 }
 
 .left {
-	max-width: 49.25%;
+	max-width: 49%;
 	height: auto;
 	margin-right:.5%;
 	margin-bottom: 1%;
@@ -201,7 +216,7 @@ div.spacer {
 }
 
 .right {
-	max-width: 49.25%;
+	max-width: 49%;
 	max-height: auto;
 	margin-left:.5%;
 	margin-bottom: 1%;
@@ -209,28 +224,29 @@ div.spacer {
 	vertical-align: top;
 }
 
-.test {
-	max-width: 49.25%;
-	max-height: auto;
-	margin-left:.5%;
-	padding-left: 0em;
-	float: right;
-	vertical-align: top;
-}
 
+/*2 on the left 1 on the right... can't figure this out*/
 .stack {
-	display: wrap;
-	flex-wrap: wrap;
-	max-width: 100%;
+	max-width: 40%;
 	margin-right: .5%;
 }
 
 .top {
-	max-width: 50%;
+	display: inline-block;
+	max-width: 	100%;
 	max-height: auto;
 	margin-right: .5%;
 	margin-bottom: 1%;
 }
+
+.test {
+	display: inline-block;
+	max-width: 40%;
+	max-height: auto;
+	margin-left:.5%;
+	padding-left: 0em;
+}
+/*end on 2 on left 1 on right*/
 
 .halfcenter {
 	max-height: 50%;
@@ -266,4 +282,72 @@ div.spacer {
 	margin-top: 1em;
 }
 
+/* Issues
+1. (top row with two images) How do I set a parent div to resize left to right and the child 
+image to stay the same size while staying centered to the parent as it resizes?
+
+2. (second row single image full width) How do I get the image to be centered vertically and 
+horizantilly while resizing as its parent element resizes with browser resize? 
+
+3. How do I set the images to always cover the vertical space? Set a min height? I am having issues 
+with the image with a orange color mainly. Hoping that the answer to the first question will fix this.
+
+Also how do I set different styling for lets say desktop or mobile?? @media?? Any articles or videos 
+would be really appreciated!!
+*/
+
+/*Alexis will you please review this styling section*/
+.loverflow {
+	box-sizing: border-box;
+	width: 49%;
+	height:400px;
+	margin-bottom: 1em;
+	margin-right: .5%;
+	float: left;
+	overflow-y: hidden; 
+	overflow-x: hidden;
+}
+
+.roverflow {
+	box-sizing: border-box;
+	width: 49%;
+	height:400px;
+	margin-bottom: 1em;
+	margin-left: .5%;
+	float: left;
+	overflow-y: hidden; 
+	overflow-x: hidden;
+}
+
+.hiddenhalf {
+	resize: none;
+    width: 150%;
+    height: auto;
+    left: -125px;
+    top: -15px;
+    position: relative;
+}
+
+
+.fulloverflow {
+	box-sizing: border-box;
+	width: 100%;
+	max-height:700px; 
+	float: left;
+	overflow-y: hidden; 
+	overflow-x: hidden;
+}
+
+.hidden {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    top:-50px;
+    position: relative;
+}
+/*End of question section*/
+
+@media all and (max-width: 500) {
+
+}
 
