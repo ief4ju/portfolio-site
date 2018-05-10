@@ -83,12 +83,13 @@ ul {
     display: inline-block;
     float: right;
     margin: auto;
+    padding-left: 0;
 }
 
 li {
 	display: inline-block;
 	padding-top: 4rem;
-	padding-bottom: 4%;
+	padding-bottom: 1.25%;
 	padding-right: 2rem;
 	font-size: 1.8rem;
 	letter-spacing: .1rem;
@@ -127,7 +128,11 @@ a:active {
 /*footer alignment to center*/
 .center {
 	text-align: center;
-	padding-top: 0rem;
+	padding-top: 4rem;
+}
+
+.centernav li {
+	padding-top: 1.25%;
 }
 
 /*Centers the nav on ux/ui and designs pages towards the bottom of the page*/
@@ -203,31 +208,28 @@ div.spacer {
 }
 /*End of styling for contact page*/
 
-.twowide {
-	width: 100%;
-	margin-left: 0em;
-	margin-right: 0em;
-	padding-left: 0em;
-	padding-right: 0em;
+.contactcenter {
+	text-align: center;
+	padding-top: 4rem;
 }
 
-.left {
-	max-width: 49%;
-	height: auto;
-	margin-right:.5%;
-	margin-bottom: 1%;
-	padding-left: 0em;
-}
-
-.right {
-	max-width: 49%;
+.halfwidthL {
+	max-width: 47.5%;
 	max-height: auto;
-	margin-left:.5%;
-	margin-bottom: 1%;
+	margin-right: 2%;
+	margin-bottom: 4%;
 	padding-left: 0em;
 	vertical-align: top;
 }
 
+.halfwidthR {
+	max-width: 47.5%;
+	max-height: auto;
+	margin-left: 2%;
+	margin-bottom: 4%;
+	padding-left: 0em;
+	vertical-align: top;
+}
 
 /*2 on the left 1 on the right... can't figure this out*/
 .stack {
@@ -259,14 +261,14 @@ div.spacer {
 	padding-left: 0em;
 }
 /*for ux/ui and designs full width*/
-.fullux {
+.full {
 	max-width: 100%;
 	max-height: auto;
-	padding-right:0em;
-	padding-left: 0em;
-	margin-left: 0em;
-	margin-right: 5%;
-	margin-bottom: 1%;
+	padding-right:0;
+	padding-left: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 4%;
 }
 
 /*recruiting page last image full width*/
@@ -340,7 +342,8 @@ div:hover .hiddenhalf {
 .fulloverflow {
 	box-sizing: border-box;
 	width: 100%;
-	height:45rem; 
+	height:45rem;
+	margin-bottom: 4%; 
 	float: left;
 	overflow-y: hidden; 
 	overflow-x: hidden;
@@ -379,7 +382,49 @@ div:hover .title {
 
 /*End of question section*/
 
-@media all and (max-width: 500) {
+@media all and (max-width: 850px) {
+    body {
+        background-color: white;
+    }
 
+    .halfwidthL {
+    	display: block;
+    	max-width: 100%;
+    	margin-right: 0;
+    }
+
+    .halfwidthR {
+    	display: block;
+   		max-width: 100%;
+   		margin-left: 0;
+   }
+
+   .logo {
+   		display: flex;
+   		justify-content: center;
+   		height: 1.75rem; 
+   }
+
+   nav ul,
+   nav li {
+   		display: flex;
+   		justify-content: space-between;
+   		float: none;
+   		padding-top: 1rem;
+   		padding-bottom: 4%;
+   }
+
+   .centernav li {
+   		display: flex;
+   		justify-content: center;
+   		margin-top: 2%;
+   		margin-bottom: 2%; 
+   }
+
+   .contactcenter,
+   .contactcenter img {
+   		padding-top: 0;
+   		margin-right: 0;
+   }
 }
 
