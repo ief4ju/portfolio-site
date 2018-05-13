@@ -20,7 +20,7 @@ Montserrat Bold (bold):700;
  */
 
 html{
-	max-width: 1650px;
+	max-width: 1550px;
 	margin:auto;
 	font-size: 62.5%
 }
@@ -119,15 +119,13 @@ a:active {
 /*footer icons*/
 .social {
 	max-height: 2.5rem;
-	padding-left: 4rem;
-	padding-bottom: 4rem;
-	padding-top: 10rem;
+	width: auto;
 }
 
 /*footer alignment to center*/
 .center {
 	text-align: center;
-	padding-top: 4rem;
+	padding-top: 8rem;
 	display: grid;
 	flex-: flex-end;
 }
@@ -135,6 +133,7 @@ a:active {
 .centernav li {
 	padding-top: 1.25%;
 }
+
 
 /*Centers the nav on ux/ui and designs pages towards the bottom of the page*/
 .centernav {
@@ -219,7 +218,7 @@ div.spacer {
 	max-height: auto;
 	margin-right: 2%;
 	margin-bottom: 4%;
-	padding-left: 0em;
+	padding-left: 0rem;
 	vertical-align: top;
 }
 
@@ -228,30 +227,54 @@ div.spacer {
 	max-height: auto;
 	margin-left: 2%;
 	margin-bottom: 4%;
-	padding-left: 0em;
+	padding-left: 0rem;
+	vertical-align: top;
+}
+
+.left {
+	width: 30%;
+	margin-right: 2%;
+	margin-bottom: 4%;
+	vertical-align: top;
+}
+
+.middle {
+	width: 30%;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 4%;
+	vertical-align: top;
+}
+
+.right{
+	width: 30%;
+	margin-left: 2%;
+	margin-bottom: 4%;
 	vertical-align: top;
 }
 
 /*2 on the left 1 on the right... can't figure this out*/
 .stack {
-	max-width: 40%;
-	margin-right: .5%;
+	width: 48%;
+	margin-right: 2%;
 }
 
-.top {
-	display: inline-block;
-	max-width: 	100%;
+.top1 {
+	display: grid;
+	justify-content: flex-start;
+	width: 100%;
 	max-height: auto;
 	margin-right: .5%;
-	margin-bottom: 1%;
+	margin-bottom: 8%;
 }
 
-.test {
-	display: inline-block;
-	max-width: 40%;
+.top2 {
+	display: grid;
+	justify-content: flex-start;
+	width: 100%;
 	max-height: auto;
-	margin-left:.5%;
-	padding-left: 0em;
+	margin-right: .5%;
+	margin-bottom: 8%;
 }
 /*end on 2 on left 1 on right*/
 
@@ -289,20 +312,6 @@ div.spacer {
 	margin-top: 1em;
 }
 
-/* Issues
-1. (top row with two images) How do I set a parent div to resize left to right and the child 
-image to stay the same size while staying centered to the parent as it resizes?
-
-2. (second row single image full width) How do I get the image to be centered vertically and 
-horizantilly while resizing as its parent element resizes with browser resize? 
-
-3. How do I set the images to always cover the vertical space? Set a min height? I am having issues 
-with the image with a orange color mainly. Hoping that the answer to the first question will fix this.
-
-Also how do I set different styling for lets say desktop or mobile?? @media?? Any articles or videos 
-would be really appreciated!!
-*/
-
 /*Alexis will you please review this styling section*/
 .loverflow {
 	box-sizing: border-box;
@@ -329,14 +338,37 @@ would be really appreciated!!
 }
 
 .hiddenhalf {
-    height: 100%;
-    left: -7rem;
-    position: relative;
-    vertical-align: top;
-    text-align: center;
+    height: 55rem;
+    transform: translate(-15rem, -6rem);
 }
 
-div:hover .hiddenhalf {
+.hiddensquare {
+    height: 70rem;
+    transform: translate(-12%, -22%);
+}
+
+.hiddensquareBB {
+    height: 70rem;
+    transform: translate(-10%, -20%);
+}
+
+.hiddenhalfcenter {
+    height: 60rem;
+    top: -1rem
+}
+
+.hiddenshift {
+    box-sizing: border-box;
+    min-height: 65rem;
+	transform: translate(-12.5%,-30%);
+    width: 130%;
+}
+
+div:hover .hiddenhalf,
+div:hover .hiddensquare,
+div:hover .hiddensquareBB,
+div:hover .hidden,
+div:hover .hiddenshift {
 	opacity: .2;
 }
 
@@ -354,19 +386,30 @@ div:hover .hiddenhalf {
 
 .hidden {
     box-sizing: border-box;
-    min-height: 45rem;
-	transform: translateY(-30%);
-    width: 100%;
+    min-height: 65rem;
+	transform: translate(-12.5%,-30%);
+    width: 130%;
 }
 
-div:hover .hidden {
-	opacity: .2;
+.loverflow .hidden {
+    box-sizing: border-box;
+    height: auto;
+	transform: translate(-12.5%,-30%);
+    width: 130%;
 }
 
 .title {
 	color:black;
 	position: relative;
-	top: 50%;
+	top: 42%;
+	opacity: 0;
+	font-size: 4.5rem;
+}
+
+.fulloverflow .title {
+	color:black;
+	position: relative;
+	top: 40%;
 	opacity: 0;
 	font-size: 4.5rem;
 }
@@ -379,6 +422,18 @@ div:hover .title {
 .hide {
 	margin: auto;
 	padding: auto;
+}
+
+
+.grid {
+	display: grid;
+	justify-content: center;
+}
+
+iframe {
+	height: 60vh;
+	width: 80vw;
+	margin-bottom: 4%;
 }
 
 /*End of question section*/
@@ -426,6 +481,73 @@ div:hover .title {
    .contactcenter img {
    		padding-top: 0;
    		margin-right: 0;
+   }
+
+   .loverflow {
+   	width: 100%;
+   	margin-bottom: 4%;
+   }
+
+    .roverflow {
+   	width: 100%;
+   	margin-bottom: 4%;
+   	margin-left: 0;
+   }
+
+
+   .hiddenhalf {
+   	transform: translate(-13.8rem, -10rem);
+   }
+
+   .fulloverflow {
+   	height: 55rem;
+   }
+
+   .fulloverflow .hidden {
+   	transform: translate(-25%, -15rem);
+   	max-height: 75rem;
+   	min-height: 65rem;
+   	width: auto;
+   }
+
+   .stack {
+   	width: 100%;
+   	margin-right: 0;
+   	margin-bottom: 4%;
+   }
+
+   .top1 {
+   	margin-bottom: 4%;
+   }
+
+   .top2 {
+   	margin-bottom: 0%;
+   }
+
+   .hiddensquare {
+   	transform: translate(-0%,-22%);
+   }
+
+   .hiddensquareBB {
+   	transform: translate(-0%,-22%);
+   }
+
+   .hiddenshift {
+   	height: 70rem;
+   	width: auto;
+   	transform: translate(0%,-20%);
+   }
+
+   .loverflow .hidden {
+   	height: 65;
+   }
+
+   .right,
+   .middle,
+   .left {
+   	width: 100%;
+   	margin-left: 0%;
+   	margin-right: 0%;
    }
 }
 
