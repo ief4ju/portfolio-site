@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
   <head>
   	<title>Restoration and Colorization - Ian Frye</title>
@@ -20,10 +19,15 @@
       </ul>
   </nav> 
 
-  <img class="halfwidthL" src="../img/designs/restoration/Original.jpg" alt=""/>
-  <img class="halfwidthR" src="../img/designs/restoration/PAPAWandFriend2.jpg" alt=""/>
-  <img class="halfwidthL" src="../img/designs/restoration/scan.jpg" alt=""/>
-  <img class="halfwidthR" src="../img/designs/restoration/Papawscan.jpg" alt=""/>
+  <img class="halfwidthL myImages" id="myImg" src="../img/designs/restoration/Original.jpg" alt="" >
+  <img class="halfwidthR myImages" id="myImg" src="../img/designs/restoration/PAPAWandFriend2.jpg" alt="">
+  <img class="halfwidthL myImages" id="myImg" src="../img/designs/restoration/scan.jpg" alt="" >
+  <img class="halfwidthR myImages" id="myImg" src="../img/designs/restoration/Papawscan.jpg" alt="">
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
 
   <div class="btmspace">
     <h1 class="space">Restoration and Colorization</h1>
@@ -43,6 +47,9 @@
   <footer class="center">
     <a href="https://www.linkedin.com/in/ianfrye" target="_blank"><img class="social" src="../img/Logo-Black-48px-R.png" alt="logo"></a>
   </footer>
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/script.js"></script>
 
 </body>
 </html>

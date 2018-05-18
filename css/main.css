@@ -463,7 +463,10 @@ iframe {
     margin: auto;
     display: block;
     height: 95%;
+    max-width: 90%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, .1);
 }
+
 
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption { 
@@ -609,7 +612,14 @@ iframe {
    }
 
     .modal-content {
-    	width: 100%;
-    	height: auto;
+    	margin-top: 25%;
+    	margin-bottom: 25%;
+    	width: 90%;
+    	height: auto;    
+    	box-shadow: none;
+    }
+
+    .modal {
+    	background-color: white;
     }
 }

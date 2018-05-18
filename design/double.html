@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
   <head>
   	<title>Double Exposure - Ian Frye</title>
@@ -20,11 +19,16 @@
       </ul>
   </nav> 
 
-  <img class="halfwidthL" src="../img/designs/double/1496774461229.jpeg" alt=""/>
-  <img class="halfwidthR" src="../img/designs/double/ChrisLong.jpg" alt=""/>
-  <img class="halfwidthL" src="../img/designs/double/Rondebarber.jpg" alt=""/>
-  <img class="halfwidthR" src="../img/designs/double/Untitled-1.jpg" alt=""/>
-  <img class="halfwidthL" src="../img/designs/double/1496774489021.jpeg" alt=""/>
+  <img class="halfwidthL myImages" id="myImg" src="../img/designs/double/1496774461229.jpeg" alt="" >
+  <img class="halfwidthR myImages" id="myImg" src="../img/designs/double/ChrisLong.jpg" alt="">
+  <img class="halfwidthL myImages" id="myImg" src="../img/designs/double/Rondebarber.jpg" alt="" >
+  <img class="halfwidthR myImages" id="myImg" src="../img/designs/double/Untitled-1.jpg" alt="">
+  <img class="halfwidthL myImages" id="myImg" src="../img/designs/double/1496774489021.jpeg" alt="" >
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
 
   <div class="btmspace">
     <h1 class="space">Double Exposure</h1>
@@ -44,6 +48,9 @@
   <footer class="center">
     <a href="https://www.linkedin.com/in/ianfrye" target="_blank"><img class="social" src="../img/Logo-Black-48px-R.png" alt="logo"></a>
   </footer>
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/script.js"></script>
 
 </body>
 </html>
