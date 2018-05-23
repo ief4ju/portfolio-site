@@ -19,350 +19,359 @@ Montserrat Medium (medium):500;
 Montserrat Bold (bold):700;
  */
 
-html{
-	max-width: 1550px;
-	margin:auto;
-	font-size: 62.5%
+html {
+  max-width: 1550px;
+  margin: auto;
+  font-size: 62.5%;
 }
 
 body {
-	background-color: #ffffff;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 1.4rem;
-	margin-right: 10%;
-	margin-left: 10%;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 nav {
-	font-weight:500;
+  font-weight: 500;
 }
 
 footer {
-	margin: 0 auto;
-	padding-top: 2rem;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
-div { 
+div {
+  font-weight: 500;
   display: inline-block;
 }
 
 p {
-	font-size: 1.6rem;
-	letter-spacing: .1rem;
-	line-height: 2.5rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  line-height: 2.5rem;
+  color: #333;
 }
 
+/* Headings */
 
-/*Headings*/
 h1 {
-	font-size: 2.4rem;
-	margin-top: 0rem;
-	margin-bottom: 0rem;
-}
-
-h2 {
-
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-top: none;
+  margin-bottom: none;
+  color: #333;
 }
 
 h5 {
-	font-size: 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #333;
 }
-/*End Headings*/
 
-/*Global Nav Bar*/
+/* End Headings */
+
+/* Global Nav Bar */
 .logo {
-	margin: auto;
-	height: 2rem;
-	padding-top: 4rem;
-	padding-bottom: 4%;
-	padding-left: 0rem;
+  margin: auto;
+  height: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4%;
+  padding-left: none;
 }
 
 ul {
-    list-style-type: none;
-    display: inline-block;
-    float: right;
-    margin: auto;
-    padding-left: 0;
+  list-style-type: none;
+  display: inline-block;
+  float: right;
+  margin: auto;
+  padding-left: 0;
 }
 
 li {
-	display: inline-block;
-	padding-top: 4rem;
-	padding-bottom: 1.25%;
-	padding-right: 2rem;
-	font-size: 1.8rem;
-	letter-spacing: .1rem;
+  display: inline-block;
+  padding-top: 4rem;
+  padding-bottom: 1.25%;
+  padding-right: 2rem;
+  font-size: 1.8rem;
+  letter-spacing: 00.1rem;
 }
 
 a {
-	color: #aaa;
-	text-decoration: none;
+  color: #767676;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #333333;
+  color: #333;
 }
 
 .onpage {
-	color: #333333;
+  color: #333;
 }
 
 .paddingright {
-	padding-right: 0rem;
+  padding-right: 0;
 }
-/*End Global Nav*/
 
-/*Components towards the bottom of the page*/
-/*footer icons*/
+/* End Global Nav */
+
+/* Components towards the bottom of the page */
+
+/* footer icons */
 .social {
-	max-height: 2.5rem;
-	width: auto;
-	margin-bottom: 4%;
+  max-height: 2.5rem;
+  width: auto;
+  margin-bottom: 4%;
 }
 
-/*footer alignment to center*/
+/* footer alignment to center */
 .center {
-	text-align: center;
-	padding-top: 8rem;
-	display: grid;
-	flex-: flex-end;
+  text-align: center;
+  padding-top: 8rem;
+  display: grid;
+  flex: flex-end;
 }
 
 .centernav li {
-	padding-top: 1.25%;
+  padding-top: 1.25%;
 }
 
-
-/*Centers the nav on ux/ui and designs pages towards the bottom of the page*/
+/* Centers the nav on ux/ui and designs pages towards the bottom of the page */
 .centernav {
-	width: 100%;
-	padding-left: 0em;
-	text-align: center;
+  width: 100%;
+  padding-left: none;
+  text-align: center;
 }
 
 .full {
-	max-width: 100%;
-	max-height: 100%;
-	padding-right:0em;
-	padding-left: 0em;
-	margin-left: 0em;
-	margin-right: 0em;
+  max-width: 100%;
+  max-height: 100%;
+  padding-right: none;
+  padding-left: none;
+  margin-left: none;
+  margin-right: none;
 }
-/*End of bottom of page components*/
 
-/*This includes styling for the contact page*/
-/*Profile Pic*/
+/* End of bottom of page components */
+
+/* This includes styling for the contact page */
+
+/* Profile Pic */
 .pic {
-	max-height: 40rem;
-	margin-bottom: 4rem;
-	margin-right: 4rem;
-	margin-left: auto;
+  max-height: 40rem;
+  margin-bottom: 4rem;
+  margin-right: 4rem;
+  margin-left: auto;
 }
 
-/*Block of text align*/
+/* Block of text align */
 .center {
-	width: 100%;
-	vertical-align: top;
-	margin-top: 5rem;
+  width: 100%;
+  vertical-align: top;
+  margin-top: 5rem;
 }
 
 .contact {
-	vertical-align: top;
-	text-align: left;
+  vertical-align: top;
+  text-align: left;
 }
 
 .light {
-	font-weight:300;
-	margin-top:0rem;
-	margin-bottom:0rem; 
+  font-weight: 300;
+  margin-top: none;
+  margin-bottom: none;
 }
 
 .button {
-	border-style: solid;
-	border-color: #333333;
-	border-radius: 4px;
-	border-width: 1px;
-	color: #333333;
-	font-size: 1.6rem;
-	padding: .5em;
+  border-style: solid;
+  border-color: #333;
+  border-radius: 4px;
+  border-width: 1px;
+  color: #333;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.5em;
 }
 
 .button:hover {
-	border-style: solid;
-	border-color: #333333;
-	background-color: #333333;
-	border-radius: 4px;
-	border-width: 1px;
-	color: #ffffff;
-	padding: .5em;
+  border-style: solid;
+  border-color: #333;
+  background-color: #333;
+  border-radius: 4px;
+  border-width: 1px;
+  color: #fff;
+  padding: 0.5em;
 }
 
 div.spacer {
-	height: 7rem;
-	width: 0px;
-	padding: 0px;
-	margin: 0px;
-	background-color: black;
+  height: 7rem;
+  width: none;
+  padding: none;
+  margin: none;
+  background-color: black;
 }
-/*End of styling for contact page*/
+
+/* End of styling for contact page */
 
 .contactcenter {
-	text-align: center;
-	padding-top: 4rem;
+  text-align: center;
+  padding-top: 4rem;
 }
 
 .halfwidthL {
-	max-width: 47.5%;
-	max-height: auto;
-	margin-right: 2%;
-	margin-bottom: 4%;
-	padding-left: 0rem;
-	vertical-align: top;
+  max-width: 47.5%;
+  max-height: auto;
+  margin-right: 2%;
+  margin-bottom: 4%;
+  padding-left: none;
+  vertical-align: top;
 }
 
 .halfwidthR {
-	max-width: 47.5%;
-	max-height: auto;
-	margin-left: 2%;
-	margin-bottom: 4%;
-	padding-left: 0rem;
-	vertical-align: top;
+  max-width: 47.5%;
+  max-height: auto;
+  margin-left: 2%;
+  margin-bottom: 4%;
+  padding-left: none;
+  vertical-align: top;
 }
 
 .left {
-	width: 30%;
-	margin-right: 2%;
-	margin-bottom: 4%;
-	vertical-align: top;
+  width: 30%;
+  margin-right: 2%;
+  margin-bottom: 4%;
+  vertical-align: top;
 }
 
 .middle {
-	width: 30%;
-	margin-right: 2%;
-	margin-left: 2%;
-	margin-bottom: 4%;
-	vertical-align: top;
+  width: 30%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 4%;
+  vertical-align: top;
 }
 
-.right{
-	width: 30%;
-	margin-left: 2%;
-	margin-bottom: 4%;
-	vertical-align: top;
+.right {
+  width: 30%;
+  margin-left: 2%;
+  margin-bottom: 4%;
+  vertical-align: top;
 }
 
-/*2 on the left 1 on the right... can't figure this out*/
+/* 2 on the left 1 on the right... can't figure this out */
 .stack {
-	width: 48%;
-	margin-right: 2%;
+  width: 48%;
+  margin-right: 2%;
 }
 
 .top1 {
-	display: grid;
-	justify-content: flex-start;
-	width: 100%;
-	max-height: auto;
-	margin-right: .5%;
-	margin-bottom: 8%;
+  display: grid;
+  justify-content: flex-start;
+  width: 100%;
+  max-height: auto;
+  margin-right: 0.5%;
+  margin-bottom: 8%;
 }
 
 .top2 {
-	display: grid;
-	justify-content: flex-start;
-	width: 100%;
-	max-height: auto;
-	margin-right: .5%;
-	margin-bottom: 8%;
+  display: grid;
+  justify-content: flex-start;
+  width: 100%;
+  max-height: auto;
+  margin-right: 0.5%;
+  margin-bottom: 8%;
 }
-/*end on 2 on left 1 on right*/
+
+/* end on 2 on left 1 on right */
 
 .halfcenter {
-	max-height: 50%;
-	width: 50%;
-	margin-left:0em;
-	padding-left: 0em;
-}
-/*for ux/ui and designs full width*/
-.full {
-	max-width: 100%;
-	max-height: auto;
-	padding-right:0;
-	padding-left: 0;
-	margin-left: 0;
-	margin-right: 0;
-	margin-bottom: 4%;
+  max-height: 50%;
+  width: 50%;
+  margin-left: none;
+  padding-left: none;
 }
 
-/*recruiting page last image full width*/
+/* for ux/ui and designs full width */
+.full {
+  max-width: 100%;
+  max-height: auto;
+  padding-right: none;
+  padding-left: none;
+  margin-left: none;
+  margin-right: none;
+  margin-bottom: 4%;
+}
+
+/* recruiting page last image full width */
 .fullit {
-	width: 100%;
-	height: auto;
-	margin-top: .5em;
-	margin-bottom: 2em;
+  width: 100%;
+  height: auto;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
 }
 
 .btmspace {
-	margin-bottom: 3em;
+  margin-bottom: 3em;
 }
 
 .space {
-	margin-bottom: .5em;
-	margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
 }
 
-/*Alexis will you please review this styling section*/
+/* Alexis will you please review this styling section */
 .loverflow {
-	box-sizing: border-box;
-	width: 48%;
-	height:50rem;
-	float: left;
-	overflow-y: hidden; 
-	overflow-x: hidden;
-	text-align: center;
-	position: relative;
+  box-sizing: border-box;
+  width: 48%;
+  height: 50rem;
+  float: left;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  text-align: center;
+  position: relative;
 }
 
 .roverflow {
-	box-sizing: border-box;
-	width: 48%;
-	height:50rem;
-	margin-left: 4%;
-	margin-bottom: 4%;
-	float: left;
-	overflow-y: hidden; 
-	overflow-x: hidden;
-	text-align: center;
-	position: relative;
+  box-sizing: border-box;
+  width: 48%;
+  height: 50rem;
+  margin-left: 4%;
+  margin-bottom: 4%;
+  float: left;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  text-align: center;
+  position: relative;
 }
 
 .hiddenhalf {
-    height: 55rem;
-    transform: translate(-15rem, -6rem);
+  height: 55rem;
+  transform: translate(-15rem, -6rem);
 }
 
 .hiddensquare {
-    height: 70rem;
-    transform: translate(-12%, -22%);
+  height: 70rem;
+  transform: translate(-12%, -22%);
 }
 
 .hiddensquareBB {
-    height: 70rem;
-    transform: translate(-10%, -20%);
+  height: 70rem;
+  transform: translate(-10%, -20%);
 }
 
 .hiddenhalfcenter {
-    height: 60rem;
-    top: -1rem
+  height: 60rem;
 }
 
 .hiddenshift {
-    box-sizing: border-box;
-    min-height: 65rem;
-	transform: translate(-12.5%,-30%);
-    width: 130%;
+  box-sizing: border-box;
+  min-height: 55rem;
+  transform: translate(-12.5%, -30%);
+  width: 130%;
 }
 
 div:hover .hiddenhalf,
@@ -370,256 +379,301 @@ div:hover .hiddensquare,
 div:hover .hiddensquareBB,
 div:hover .hidden,
 div:hover .hiddenshift {
-	opacity: .2;
+  opacity: 0.2;
 }
 
 .fulloverflow {
-	box-sizing: border-box;
-	width: 100%;
-	height:45rem;
-	margin-bottom: 4%; 
-	float: left;
-	overflow-y: hidden; 
-	overflow-x: hidden;
-	text-align: center;
-	position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 45rem;
+  margin-bottom: 4%;
+  float: left;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  text-align: center;
+  position: relative;
 }
 
 .hidden {
-    box-sizing: border-box;
-    min-height: 65rem;
-	transform: translate(-12.5%,-30%);
-    width: 130%;
+  box-sizing: border-box;
+  min-height: 65rem;
+  transform: translate(-12.5%, -30%);
+  width: 130%;
 }
 
 .loverflow .hidden {
-    box-sizing: border-box;
-    height: auto;
-	transform: translate(-12.5%,-30%);
-    width: 130%;
+  box-sizing: border-box;
+  height: auto;
+  transform: translate(-12.5%, -30%);
+  width: 130%;
 }
 
 .title {
-	color:black;
-	position: relative;
-	top: 42%;
-	opacity: 0;
-	font-size: 4.5rem;
+  color: black;
+  position: relative;
+  top: 42%;
+  opacity: 0;
+  font-size: 4.5rem;
 }
 
 .fulloverflow .title {
-	color:black;
-	position: relative;
-	top: 40%;
-	opacity: 0;
-	font-size: 4.5rem;
+  color: black;
+  position: relative;
+  top: 40%;
+  opacity: 0;
+  font-size: 4.5rem;
 }
 
 div:hover .title {
-	opacity: 1;
-
+  opacity: 1;
 }
 
 .hide {
-	margin: auto;
-	padding: auto;
+  margin: auto;
+  padding: auto;
 }
 
-
 .grid {
-	display: grid;
-	justify-content: center;
+  display: grid;
+  justify-content: center;
 }
 
 iframe {
-	height: 60vh;
-	width: 80vw;
-	margin-bottom: 4%;
+  height: 60vh;
+  width: 80vw;
+  margin-bottom: 4%;
+  border: none;
 }
 
 /* Style the Image Used to Trigger the Modal */
-#myImg {
-    cursor: pointer;
-    transition: 0.3s;
+.myImg {
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    padding-top: 1%; 
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(255,255,255,0.8); /* Black w/ opacity */
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  padding-top: 1%;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(255, 255, 255, 0.8); /* Black w/ opacity */
 }
 
 /* Modal Content (Image) */
 .modal-content {
-    margin: auto;
-    display: block;
-    height: 95%;
-    max-width: 90%;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, .1);
+  margin: auto;
+  display: block;
+  height: 95%;
+  max-width: 90%;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
 }
 
-
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
-    animation-name: zoom;
-    animation-duration: 0.6s;
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
+  from { transform: scale(0); }
+  to { transform: scale(1); }
 }
 
 /* The Close Button */
 .close {
-    position: absolute;
-    top: 1.5rem;
-    right: 3.5rem;
-    color: #767676;
-    font-size: 4rem;
-    font-weight: bold;
-    transition: 0.3s;
+  position: absolute;
+  top: 1.5rem;
+  right: 3.5rem;
+  color: #767676;
+  font-size: 4rem;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-    color: #333333;
-    text-decoration: none;
-    cursor: pointer;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-/*End of question section*/
+/* End of question section */
 
-@media all and (max-width: 850px) {
-    body {
-        background-color: white;
-    }
+@media only screen and (max-width: 850px) {
+  body {
+    background-color: white;
+  }
 
-    .halfwidthL {
-    	display: block;
-    	max-width: 100%;
-    	margin-right: 0;
-    }
+  h1 {
+    max-width: 90%;
+  }
 
-    .halfwidthR {
-    	display: block;
-   		max-width: 100%;
-   		margin-left: 0;
-   }
+  .halfwidthL {
+    display: block;
+    max-width: 100%;
+    margin-right: 0;
+  }
 
-   .logo {
-   		display: flex;
-   		justify-content: center;
-   		height: 1.75rem; 
-   }
+  .halfwidthR {
+    display: block;
+    max-width: 100%;
+    margin-left: 0;
+  }
 
-   nav ul,
-   nav li {
-   		display: flex;
-   		justify-content: space-between;
-   		float: none;
-   		padding-top: 1rem;
-   		padding-bottom: 4%;
-   }
+  .logo {
+    display: flex;
+    justify-content: center;
+    height: 1.75rem;
+  }
 
-   .centernav li {
-   		display: flex;
-   		justify-content: center;
-   		margin-top: 2%;
-   		margin-bottom: 2%; 
-   }
+  nav ul,
+  nav li {
+    display: flex;
+    justify-content: space-between;
+    float: none;
+    padding-top: 1rem;
+    padding-bottom: 4%;
+  }
 
-   .contactcenter,
-   .contactcenter img {
-   		padding-top: 0;
-   		margin-right: 0;
-   }
+  .centernav li {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
 
-   .loverflow {
-   		width: 100%;
-   		margin-bottom: 4%;
-   }
+  .contactcenter,
+  .contactcenter img {
+    padding-top: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
 
-    .roverflow {
-   		width: 100%;
-   		margin-bottom: 4%;
-   		margin-left: 0;
-   }
+  .loverflow {
+    width: 100%;
+    margin-bottom: 4%;
+  }
 
+  .roverflow {
+    width: 100%;
+    margin-bottom: 4%;
+    margin-left: 0;
+  }
 
-   .hiddenhalf {
-   		transform: translate(-13.8rem, -10rem);
-   }
+  .hiddenhalf {
+    transform: translate(-13.8rem, -10rem);
+  }
 
-   .fulloverflow {
-   		height: 55rem;
-   }
+  .fulloverflow {
+    height: 55rem;
+  }
 
-   .fulloverflow .hidden {
-   		transform: translate(-25%, -15rem);
-   		max-height: 75rem;
-   		min-height: 65rem;
-   		width: auto;
-   }
+  .fulloverflow .hidden {
+    transform: translate(-25%, -15rem);
+    max-height: 75rem;
+    min-height: 65rem;
+    width: auto;
+  }
 
-   .stack {
-   		width: 100%;
-   		margin-right: 0;
-   		margin-bottom: 4%;
-   }
+  .stack {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 4%;
+  }
 
-   .top1 {
-   		margin-bottom: 4%;
-   }
+  .top1 {
+    margin-bottom: 4%;
+  }
 
-   .top2 {
-   		margin-bottom: 0%;
-   }
+  .top2 {
+    margin-bottom: 0%;
+  }
 
-   .hiddensquare {
-   		transform: translate(-0%,-22%);
-   }
+  .hiddensquare {
+    transform: translate(-0%, -22%);
+  }
 
-   .hiddensquareBB {
-   		transform: translate(-0%,-22%);
-   }
+  .hiddensquareBB {
+    transform: translate(-0%, -22%);
+  }
 
-   .hiddenshift {
-   		height: 70rem;
-   		width: auto;
-   		transform: translate(0%,-20%);
-   }
+  .hiddenshift {
+    height: 75rem;
+    width: auto;
+    transform: translate(0%, -20%);
+  }
 
-   .loverflow .hidden {
-   		height: 65;
-   }
+  .loverflow .hidden {
+    height: 65;
+  }
 
-   .right,
-   .middle,
-   .left {
-   		width: 100%;
-   		margin-left: 0%;
-   		margin-right: 0%;
-   }
+  .right,
+  .middle,
+  .left {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 
-    .modal-content {
-    	margin-top: 25%;
-    	margin-bottom: 25%;
-    	width: 90%;
-    	height: auto;    
-    	box-shadow: none;
-    }
+  .modal-content {
+    margin-top: 25%;
+    margin-bottom: 25%;
+    width: 90%;
+    height: auto;
+    box-shadow: none;
+  }
 
-    .modal {
-    	background-color: white;
-    }
+  .modal {
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  a {
+    font-size: 1.4rem;
+  }
+
+  .hiddenhalf {
+    transform: translate(-22rem, -10rem);
+  }
+
+  .fulloverflow .hidden {
+    box-sizing: border-box;
+    min-height: 55rem;
+    transform: translate(-35%, -28%);
+}
+
+  .hiddensquare {
+    transform: translate(-30%, -22%);
+  }
+
+  .hiddensquareBB {
+    transform: translate(-30%, -22%);
+  }
+
+  .hiddenshift {
+    height: 55rem;
+    width: auto;
+    transform: translate(-21%, -20%);
+  }
+
+  .loverflow .hidden {
+  box-sizing: border-box;
+  min-height: 75rem;
+  transform: translate(0%, -40%);
+  max-width: 100%;
+  }
+
+  .roverflow .hiddensquare {
+    height: 50rem;
+    transform: translate(-37%, -22%);
+  }
 }
